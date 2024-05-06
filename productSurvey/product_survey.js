@@ -6,6 +6,8 @@ function submitFeedback(){
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
+    const experince = document.getElementById('userExperiance').value;
+
     alert('Thank you for your valuable feedback')
 
 
@@ -16,6 +18,8 @@ function submitFeedback(){
     document.getElementById('userDesignation').innerHTML = designation;
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
+    document.getElementById('userExperince').innerHTML = experince;
+
 }
 
 const submitButton = document.getElementById('submitBtn');
